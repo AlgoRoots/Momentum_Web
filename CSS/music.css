@@ -1,12 +1,3 @@
-/* .player {
-  width: 352px;
-  height: 85px;
-  margin: 30px auto;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
-} */
-
 .buttons {
   margin: 30px auto;
   font-size: 18px;
@@ -165,7 +156,7 @@
 }
 
 .play_btn.pause {
-  animation: pulse 2s linear infinite;
+  animation: pulse 1s linear infinite;
 }
 
 @keyframes pulse {

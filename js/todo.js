@@ -50,7 +50,7 @@ function paintToDo(newTodo) {
   itemRow.appendChild(btnBox);
 
   toDoList.appendChild(itemRow);
-  itemRow.scrollIntoView({ block: "center" });
+  //itemRow.scrollIntoView({ block: "center" });
 
   checkBtn.addEventListener("click", () => {
     itemRow.classList.toggle("item_Done");
