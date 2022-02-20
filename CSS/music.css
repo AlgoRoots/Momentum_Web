@@ -125,12 +125,16 @@
   border: none;
   border-radius: 16px;
   cursor: pointer;
+  transition: 0.4s;
 }
-
+.play_btn:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+}
 .play_btn span {
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 30%;
   transform: translateY(-50%);
   width: 10px;
   height: 30px;
@@ -186,6 +190,13 @@
   border: none;
   border-radius: 16px;
   color: var(--color-dark-grey);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
 }
 
 @keyframes rotate {
