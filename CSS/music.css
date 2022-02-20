@@ -134,7 +134,7 @@
 .play_btn span {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 35%;
   transform: translateY(-50%);
   width: 10px;
   height: 30px;
@@ -148,7 +148,7 @@
 }
 
 .play_btn span:nth-child(2) {
-  left: 50%;
+  left: 53%;
   transform-origin: center;
 }
 
@@ -158,7 +158,7 @@
 
 .play_btn.pause span:nth-child(1) {
   width: 35%;
-  left: 53%;
+  left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 0;
   clip-path: polygon(0 0, 100% 50%, 100% 50%, 0% 100%);
