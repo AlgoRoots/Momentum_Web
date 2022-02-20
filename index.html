@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/time.css" />
+    <link rel="stylesheet" href="CSS/bookmarks.css" />
+    <link rel="stylesheet" href="CSS/music.css" />
+    <link rel="stylesheet" href="CSS/todo.css" />
+    <link rel="stylesheet" href="CSS/anologClock.css" />
+
+    <title>Momentum App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="main_box">
+        <div class="title">
+          <div class="title_and_weather">
+            <div id="weather">
+              <span></span>
+              <span></span>
+            </div>
+            <form action="" class="login">
+              <h1 class="name_input"></h1>
+            </form>
+          </div>
+          <div id="quote">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="sub_boxes">
+          <div class="left_side_boxes">
+            <div class="time_box">
+              <div class="time_line_green"></div>
+              <div class="time_text">
+                <div class="time_is">Time is</div>
+                <h2 id="distal_clock">
+                  <span id="clock">00:00</span> <span class="am_pm">PM</span>
+                </h2>
+              </div>
+              <div class="anolog_clock_box">
+                <div class="hour">
+                  <div class="hr"></div>
+                </div>
+                <div class="min">
+                  <div class="mn"></div>
+                </div>
+                <div class="sec">
+                  <div class="sc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="bookmarks_box">
+              <div class="bookmarks_text">
+                <span class="your"> Your</span> Bookmarks
+              </div>
+              <ul class="bookmark_icons">
+                <li class="google">
+                  <a href="https://www.google.com/" target="_blank"></a>
+                </li>
+                <li class="naver">
+                  <a href="https://www.naver.com/" target="_blank"></a>
+                </li>
+                <li class="tistory">
+                  <a href="https://algoroot.tistory.com/" target="_blank"></a>
+                </li>
+                <li class="normad">
+                  <a href="https://nomadcoders.co/" target="_blank"></a>
+                </li>
+                <li class="youtube">
+                  <a href="https://www.youtube.com/" target="_blank"></a>
+                </li>
+                <li class="github">
+                  <a href="https://github.com/AlgoRoots/" target="_blank"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Music -->
+          <div class="music_box">
+            <audio src="" id="audio"></audio>
+            <div class="music_info_box">
+              <div class="disk"></div>
+              <div class="music_info">
+                <h1 class="music_name">Track Name</h1>
+                <span class="artist">Artist</span>
+
+                <div class="song_slider">
+                  <input type="range" value="0" class="seek-bar" />
+                  <span class="current_time"></span>
+                  <span class="song_duration">00:00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="controls">
+              <button class="btn backward_btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button class="play_btn pause">
+                <span> </span>
+                <span></span>
+              </button>
+              <button class="btn forward_btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+
+            <!-- <div class="buttons">
+                <button class="previous_btn">
+                  <i class="fas fa-backward"></i>
+                </button>
+                <button class="play_btn">
+                  <i class="fas fa-play"></i>
+                </button>
+                <button class="next_btn">
+                  <i class="fas fa-forward"></i>
+                </button>
+              </div> -->
+          </div>
+          <!-- To Do List -->
+          <div class="todolist_box">
+            <div class="todo_title">Things to do.</div>
+            <form id="todo-form">
+              <input
+                type="text"
+                placeholder="Write a To Do and Press"
+                autofocus="true"
+                required
+              />
+            </form>
+            <ul id="items"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="login_window">
+      <form id="login_form">
+        <p class="login_title">What is your name?</p>
+        <input
+          type="text"
+          class="login_input"
+          maxlength="15"
+          placeholder="your name"
+          autofocus
+        />
+        <div class="line"></div>
+        <button type="submit" class="login_btn">Login</button>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f8251705b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/backgroundColors.js"></script>
+    <script src="js/anologClock.js"></script>
+    <script src="js/music_data.js"></script>
+    <script src="js/music.js"></script>
+  </body>
+</html>

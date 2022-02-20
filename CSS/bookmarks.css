@@ -1,0 +1,106 @@
+.bookmarks_text {
+  text-align: center;
+  margin-top: 41px;
+
+  font-weight: var(--font-weight-bold);
+  font-size: 30px;
+}
+
+.your {
+  font-weight: var(--font-weight-normal);
+  font-size: 24px;
+  line-height: 34px;
+}
+
+/* icons */
+
+.bookmark_icons {
+  width: 256px;
+  height: 159px;
+  margin: auto;
+  margin-top: 52px;
+}
+
+.google a {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  background: url("../img/bookmark_icons.png") -15px -15px;
+  mix-blend-mode: normal;
+  /* Newmorphism_inner_thin */
+  box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+  border-radius: 16px;
+}
+
+.naver a {
+  position: absolute;
+  left: 549px;
+  width: 68px;
+  height: 68px;
+  background: url("../img/bookmark_icons.png") -110px -15px;
+  mix-blend-mode: normal;
+  /* Newmorphism_inner_thin */
+  box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+  border-radius: 16px;
+}
+
+.tistory a {
+  position: absolute;
+  left: 647px;
+  width: 68px;
+  height: 68px;
+  background: url("../img/bookmark_icons.png") -205px -15px;
+  mix-blend-mode: normal;
+  /* Newmorphism_inner_thin */
+  box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+  border-radius: 16px;
+}
+
+.normad a {
+  position: absolute;
+  top: 235px;
+  width: 68px;
+  height: 68px;
+  background: url("../img/bookmark_icons.png") -15px -107px;
+  mix-blend-mode: normal;
+  /* Newmorphism_inner_thin */
+  box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+  border-radius: 16px;
+}
+
+.youtube a {
+  position: absolute;
+  left: 549px;
+  top: 235px;
+  width: 68px;
+  height: 68px;
+  background: url("../img/bookmark_icons.png") -110px -107px;
+  mix-blend-mode: normal;
+  /* Newmorphism_inner_thin */
+  box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+  border-radius: 16px;
+}
+
+.github a {
+  position: absolute;
+  left: 647px;
+  top: 235px;
+  width: 68px;
+  height: 68px;
+  background: url("../img/bookmark_icons.png") -205px -107px;
+  mix-blend-mode: normal;
+  /* Newmorphism_inner_thin */
+  box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+  border-radius: 16px;
+}
+
+.bookmark_icons a:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+}

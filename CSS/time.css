@@ -1,0 +1,26 @@
+.time_line_green {
+  position: absolute;
+  width: 315px;
+  height: 312px;
+  left: 18px;
+  top: 18px;
+  mix-blend-mode: normal;
+  border: 2px solid #6ef5ab;
+  box-sizing: border-box;
+  border-radius: 36px;
+}
+
+.time_text {
+  margin: 50px 0 10px 0px;
+  text-align: center;
+}
+
+.time_is {
+  font-size: 24px;
+  line-height: 15px;
+}
+#clock {
+  margin-top: 0;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-clock-title);
+}

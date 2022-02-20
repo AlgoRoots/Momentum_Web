@@ -1,0 +1,119 @@
+.todolist_box {
+  padding: 41px 0 0 41px;
+}
+
+.todo_title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-box-title);
+  width: 200px;
+  border-bottom: solid 2px var(--color-light_green);
+}
+
+#todo-form {
+  width: 400px;
+  margin-top: 30px;
+  padding: 12px;
+
+  background-color: #fcfcfc;
+  box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: none;
+  outline-width: 0;
+  width: 75%;
+}
+
+#items {
+  margin-top: 30px;
+  width: 400px;
+  position: relative;
+  height: 390px;
+  overflow-y: auto;
+}
+
+#items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+
+  background-color: #fcfcfc;
+  box-shadow: 0px -1px 4px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.item_row {
+  position: sticky;
+  font-weight: var(--font-weight-nomal);
+  font-size: 16px;
+  color: var(--color-pdAndIcon);
+}
+
+.item_row span {
+  font-size: 16px;
+}
+
+.iconcircle {
+  padding: var(--padding-regular);
+  background: #f9f9f9;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25), -3px -3px 4px #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: var(--padding-regular);
+}
+
+.fa-check {
+  color: var(--color-light_green);
+}
+
+.fa-trash {
+  color: var(--color-bin);
+}
+
+/* Done */
+.item_Done {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 12px;
+  border-radius: 0px;
+  margin-bottom: 20px;
+
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+
+.item__name_Done {
+  font-weight: var(--font-weight-normal);
+  font-size: 14px;
+  color: var(--color-complated-grey);
+  text-decoration: line-through;
+}
+
+.iconcircle_Done {
+  padding: var(--padding-regular);
+  color: 222222;
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  width: 32px;
+  height: 32px;
+  margin-left: var(--padding-regular);
+  box-shadow: none;
+  border: none;
+}
+
+.checkIcon_Done {
+  color: var(--color-complated-grey);
+  border: none;
+  background-color: transparent;
+}
