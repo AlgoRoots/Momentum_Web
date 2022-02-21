@@ -56,12 +56,13 @@ input[type="text"] {
 .item_row {
   position: sticky;
   font-weight: var(--font-weight-nomal);
-  font-size: 16px;
+  font-size: 14px;
   color: var(--color-pdAndIcon);
 }
 
 .item_row span {
-  font-size: 16px;
+  font-size: 14px;
+  color: var(--color-quotes);
 }
 
 .iconcircle {

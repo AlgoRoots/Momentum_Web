@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="CSS/music.css" />
     <link rel="stylesheet" href="CSS/todo.css" />
     <link rel="stylesheet" href="CSS/anologClock.css" />
-
     <title>Momentum Web</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,6 +22,7 @@
   <body>
     <div class="wrap">
       <div class="main_box">
+        <!-- Title & Weather $ Quote -->
         <div class="title">
           <div class="title_and_weather">
             <div id="weather">
@@ -33,13 +33,16 @@
               <h1 class="name_input"></h1>
             </form>
           </div>
+          <!-- Quote -->
           <div id="quote">
             <span></span>
             <span></span>
           </div>
         </div>
+        <!-- SUB Boxes -->
         <div class="sub_boxes">
           <div class="left_side_boxes">
+            <!-- Time -->
             <div class="time_box">
               <div class="time_line_green"></div>
               <div class="time_text">
@@ -60,6 +63,7 @@
                 </div>
               </div>
             </div>
+            <!-- Bookmarks -->
             <div class="bookmarks_box">
               <div class="bookmarks_text">
                 <span class="your"> Your</span> Bookmarks
@@ -122,7 +126,7 @@
             <form id="todo-form">
               <input
                 type="text"
-                placeholder="Write a To Do and Press"
+                placeholder="Write a To Do and press enter"
                 autofocus="true"
                 required
               />
@@ -133,6 +137,7 @@
       </div>
     </div>
 
+    <!-- login Window -->
     <div id="login_window">
       <form id="login_form">
         <p class="login_title">What is your name?</p>
